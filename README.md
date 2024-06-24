@@ -3,7 +3,7 @@
 A simple Telegram Python bot running on Python3 to automatically forward messages from one chat to another.
 
 Currently, being used in our updates channel to automatically forward messages to all our groups. Originally,Can be found on 
-Telegram as [Kustom Updates Bot](https://t.me/KustomUpdatesBot). My Bot is deployed as [Saksham's Bot](https://t.me/Freelanc2bot)
+Telegram as [Kustom Updates Bot](https://t.me/majja_ma_bot). My Bot is deployed as [Saksham's Bot](https://t.me/majja_ma_bot)
 
 ## Starting The Bot
 
@@ -32,8 +32,8 @@ from auto_forwarder.sample_config import Config
 
 
 class Development(Config):
-    API_KEY = "1234567890:Abcdef1234567890GHIJ"  # My bot API key
-    OWNER_ID = 1234567890  # My user id
+    API_KEY = "7069905379:AAHcSc3UiCl_316tLr-oMBYPDVpwcGuV3Tk"  # My bot API key
+    OWNER_ID = 1306706536  # My user id
 
     # Make sure to include the '-' sign in group and channel ids.
     FROM_CHATS = [-1001234567890]  # List of chat id's to forward messages from.
